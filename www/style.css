@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing : border-box;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body{
+	background: orange;
+}
+
+h1{
+	text-align: center;
+	
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 700px;
+	min-height: 400px;
+	width: 100%;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 8px 6px 4px rgba(254, 200, 150, 2);	
+	background: #fff;
+}
+
+#btnSend{
+	border: 0;
+	margin-top: 10px;
+	padding: 10px;
+	width: 70%;
+	background: #fece0e;
+	color: #332902;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+	}
+
+#btnChat{
+	border: 0;
+	margin-top: 10px;
+	padding: 10px;
+	width: 70%;
+	background: #fece0e;
+	color: #332902;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#txtName{
+	
+	 width: 100%;
+	 border: 1px solid #e0e0e0;
+	 padding: 10px;
+}
+
+#btnImageFile{
+	border: 0;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+	background: #fece0e;
+	color: #332902;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 15px;
+	
+	
+}

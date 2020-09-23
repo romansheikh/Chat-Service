@@ -1,0 +1,16 @@
+{
+    "name": "NodeSocketIO",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [ ],
+    "author": "Roman",
+    "license": "ISC",
+    "dependencies": {
+        "express": "3.x.x",
+        "socket.io": "1.x.x"
+    }
+}
